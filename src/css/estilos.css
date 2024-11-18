@@ -1,0 +1,85 @@
+.container{
+    height: 100vh;
+    max-width: 1440px;
+    background: url('../images/bg-desktop.svg') center center no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+
+    /* border: 2px solid black;    */
+}
+
+.container .logo{
+    padding-bottom: 20px;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content .text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-content .text-content .title{
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.main-content .text-content .text{
+    color: #fff;
+    padding-bottom: 20px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.main-content .text-content .button-register{
+    color: hsl(257, 40%, 49%);
+    align-self: flex-start;
+    font-weight: 500;
+    font-size: 1rem;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+}
+.main-content .text-content .button-register:hover{
+    color: #fff;
+    cursor: pointer;
+    background-color:hsl(300, 69%, 71%)
+}
+
+
+.social{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.social .fab{
+    color: #fff;
+    font-size: 1rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.social .fab:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+    cursor: pointer;
+}
